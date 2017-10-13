@@ -8,7 +8,7 @@ import javax.persistence.Id;
 /**
  * Created by marcos.nami on 13/10/2017.
  */
-@Entity
+@Entity(name = "convidado")
 public class Convidado {
 
     @Id
