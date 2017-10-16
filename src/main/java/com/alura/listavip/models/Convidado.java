@@ -21,6 +21,12 @@ public class Convidado {
     public Convidado() {
     }
 
+    public Convidado(String nome, String email, String telefone) {
+        this.nome = nome;
+        this.email = email;
+        this.telefone = telefone;
+    }
+
     public Integer getId() {
         return id;
     }
